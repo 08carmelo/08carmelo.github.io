@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 卯林的技术栈
 subtitle:
-description:
-author: John Doe
-language:
+description: 立足于实际项目，分享Android干货
+author: 邓卯林
+language: zh-Hans
 timezone:
 
 # URL
