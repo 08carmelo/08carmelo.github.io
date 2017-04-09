@@ -37,9 +37,8 @@ $(document).ready(function () {
       hitsPerPage: algoliaSettings.hits.per_page || 10,
       templates: {
         item: function (data) {
-          var link = data.permalink ? data.permalink : (CONFIG.root + data.path);
           return (
-            '<a href="' + link + '" class="algolia-hit-item-link">' +
+            '<a href="' + CONFIG.root + data.path + '" class="algolia-hit-item-link">' +
               data._highlightResult.title.value +
             '</a>'
           );
@@ -99,16 +98,14 @@ $(document).ready(function () {
 
   $('.popup-trigger').on('click', function(e) {
     e.stopPropagation();
-    $('body')
-      .append('<div class="search-popup-overlay algolia-pop-overlay"></div>')
-      .css('overflow', 'hidden');
+    $('body').append('<div class="popoverlay">').css('overflow', 'hidden');
     $('.popup').toggle();
     $('#algolia-search-input').find('input').focus();
   });
 
   $('.popup-btn-close').click(function(){
     $('.popup').hide();
-    $('.algolia-pop-overlay').remove();
+    $('.popoverlay').remove();
     $('body').css('overflow', '');
   });
 

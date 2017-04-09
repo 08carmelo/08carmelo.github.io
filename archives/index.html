@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,9 +15,7 @@
 
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
+<meta http-equiv="content-language" content="zh-cn">
 
 
 
@@ -37,32 +35,6 @@
 
 
 
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
 
 
 
@@ -71,7 +43,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="android" />
 
 
 
@@ -80,22 +52,22 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png?v=5.1.0" />
 
 
 
 
 
 
-<meta name="description" content="立足于实际项目，分享Android干货">
+<meta name="description" content="保持最初的热情。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="卯林的技术栈">
+<meta property="og:title" content="卯的技术Blog">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="卯林的技术栈">
-<meta property="og:description" content="立足于实际项目，分享Android干货">
+<meta property="og:site_name" content="卯的技术Blog">
+<meta property="og:description" content="保持最初的热情。">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="卯林的技术栈">
-<meta name="twitter:description" content="立足于实际项目，分享Android干货">
+<meta name="twitter:title" content="卯的技术Blog">
+<meta name="twitter:description" content="保持最初的热情。">
 
 
 
@@ -103,12 +75,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    sidebar: {"position":"right","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    scheme: 'Muse',
+    sidebar: {"position":"right","display":"always"},
     fancybox: true,
     motion: true,
     duoshuo: {
-      userId: '0',
+      userId: 'undefined',
       author: '博主'
     },
     algolia: {
@@ -129,7 +101,7 @@
 
 
 
-  <title> 归档 | 卯林的技术栈 </title>
+  <title> 归档 | 卯的技术Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -145,42 +117,38 @@
 
 
 
-
-
-
-
   
   
     
   
 
-  <div class="container sidebar-position-right  page-archive  ">
+  <div class="container one-collumn sidebar-position-right  page-archive  ">
     <div class="headband"></div>
 
+	<!-- /*<a href="https://github.com/masteranthoneyd/blog"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>*/ -->
+
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">卯的技术Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
     
+      <h1 class="site-subtitle" itemprop="description"></h1>
+    
+</div>
 
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">卯林的技术栈</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
 </div>
 
 <nav class="site-nav">
@@ -200,16 +168,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -220,20 +178,68 @@
         </li>
       
         
-        <li class="menu-item menu-item-commonweal">
-          <a href="/404.html" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-heart"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            公益
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -279,21 +285,21 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h1 class="post-title">
+      <h2 class="post-title">
         
-            <a class="post-title-link" href="/2017/04/04/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/2017/04/09/android_6.0_permission/" itemprop="url">
               
-                <span itemprop="name">Hello World</span>
+                <span itemprop="name">6.0以下国产手机权限处理</span>
               
             </a>
         
-      </h1>
+      </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2017-04-04T19:09:56+08:00"
-              content="2017-04-04" >
-          04-04
+              datetime="2017-04-09T17:24:34+08:00"
+              content="2017-04-09" >
+          04-09
         </time>
       </div>
 
@@ -309,7 +315,7 @@
   
 
 
-
+          
           </div>
           
 
@@ -338,15 +344,13 @@
       <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
+               src="/images/avatar/avatar02.jpeg"
                alt="邓卯林" />
           <p class="site-author-name" itemprop="name">邓卯林</p>
-           
-              <p class="site-description motion-element" itemprop="description">立足于实际项目，分享Android干货</p>
-          
+          <p class="site-description motion-element" itemprop="description">保持最初的热情。</p>
         </div>
         <nav class="site-state motion-element">
-
+        
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
@@ -356,6 +360,13 @@
             </div>
           
 
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
           
 
           
@@ -368,7 +379,7 @@
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/08carmelo" target="_blank" title="github">
+                <a href="https://github.com/08carmelo" target="_blank" rel="external nofollow" title="github">
                   
                     <i class="fa fa-fw fa-github"></i>
                   
@@ -377,7 +388,7 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://www.jianshu.com/users/b8dad3885e05/timeline" target="_blank" title="简书">
+                <a href="http://www.jianshu.com/users/b8dad3885e05/timeline" target="_blank" rel="external nofollow" title="简书">
                   
                     <i class="fa fa-fw fa-envira"></i>
                   
@@ -390,16 +401,21 @@
 
         
         
+          <div class="cc-license motion-element" itemprop="license">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" target="_blank" rel="external nofollow">
+              <img src="/images/cc-by-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
 
         
         
 
-        
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=0 src="//music.163.com/outchain/
+player?type=2&id=32364704&auto=0&height=66" style="margin-top: 20px;"></iframe>
 
 
       </section>
-
-      
 
       
 
@@ -418,21 +434,19 @@
   &copy; 
   <span itemprop="copyrightYear">2017</span>
   <span class="with-love">
-    <i class="fa fa-user-circle"></i>
+    <i class="fa fa-flash"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">邓卯林</span>
+  <span class="author" itemprop="copyrightHolder">Powered By - 邓卯林</span>
 </div>
 
 
 <div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+  由 hexo 强力驱动
 </div>
 
 <div class="theme-info">
   主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
+nexT
 </div>
 
 
@@ -442,13 +456,9 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
   
@@ -468,8 +478,6 @@
 
 
   
-
-
 
 
 
@@ -523,13 +531,6 @@
   
 
 
-  
-
-    
-      <script id="dsq-count-scr" src="https://maolin.disqus.com/count.js" async></script>
-    
-
-    
 
   
 
@@ -550,28 +551,174 @@
 
   
 
-
-
-
-
   
 
 
 
 
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
 
 
   
 
+  
 
-
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 
   
 
   
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
 
   
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
+
+
 
   
 
