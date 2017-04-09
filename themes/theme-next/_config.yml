@@ -155,14 +155,14 @@ social_icons:
   Weibo: weibo
   简书: envira
 
-reward_comment: 坚持原创技术分享，您的支持是我继续创作的动力！
+reward_comment: 如果您觉得本文对你有所帮助，并且想请我喝杯咖啡请点击
 wechatpay: /images/wechat.png
 alipay: /images/alipay.png
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -329,7 +329,7 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+baidushare: true
 ##  type: button
 
 # Share
@@ -338,7 +338,7 @@ changyan:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -462,7 +462,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}

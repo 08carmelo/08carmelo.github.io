@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 卯林的技术栈
+title: 卯的技术Blog
 subtitle:
-description: 立足于实际项目，分享Android干货
+description: 保持最初的热情。
 author: 邓卯林
 language: zh-Hans
 timezone:
+avatar: /images/avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: theme-next
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,3 +72,9 @@ deploy:
   type: git
   repository: https://github.com/08carmelo/08carmelo.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
